@@ -5,6 +5,10 @@
 
 }
 
+.background-lower {
+    background: #F6F7FB;
+}
+
 .white-text {
     color: ghostwhite;
     font-weight: bold;
@@ -24,7 +28,7 @@
 }
 
 .secondary-heading-alt {
-    color: blue;
+    color: #5451F1;
 }
 
 .hero-image {
@@ -35,6 +39,7 @@
 
 .hero-text{
     font-size: 24px;
+    padding: 30px;
 }
 
 .line-separator {
@@ -47,12 +52,16 @@
 }
 
 .marquee-item {
-    border: 4px solid salmon;
-    border-radius: 16px;
-    padding: 8px 16px;
-    font-size: 16px;
+    /* border: 4px solid salmon; */
+    border-radius: 9999px;
+    padding: 11px 32px;
+    font-size: 18px;
+    font-weight: 700;
     display: inline-block;
+    color: #0f0928;
+    box-shadow: 12px 12px 24px rgb(58 56 146 / 10%);
 }
+
 
 .marquee-overlay-container {
     height: 600px;
@@ -64,7 +73,7 @@
 
 .marquee-overlay {
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(246,247,251,1) 0%, rgba(246,247,251,0.006039915966386533) 50%, rgba(246,247,251,1) 100%);
     height: 100%;
     width: 100%;
     z-index: 100%;
