@@ -15,7 +15,7 @@
 }
 
 .main-heading {
-    font-size: 36px;
+    font-size: 65px;
     text-align: center;
 }
 
@@ -28,14 +28,37 @@
 .nav-link-button {
     background: white;
     color: #12092C;
+    border-color: white;
     border-radius: 9999px;
-    padding: 12px 24px;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.body-link-button {
+    background: white;
+    color: #12092C;
+    border-color: white;
+    border-radius: 9999px;
+    padding: 9px 60px;
     font-size: 20px;
     font-weight: 700;
 }
 
 .btn-outline-primary:hover {
     background: #5451F1;
+}
+
+.btn-outline-secondary:hover {
+    background: white;
+    color: #12092C;
+}
+
+.btn-outline-secondary {
+    background: #12092C;
+    border-color: #12092C;
+    color:white;
+    font-weight: 400;
 }
 
 .secondary-heading {
@@ -107,3 +130,9 @@
     color: #5451F1;
     border-bottom: 3px solid #5451F1
 }
+
+.spacing {
+    height: 215px;
+}
+
+
